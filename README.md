@@ -1,4 +1,3 @@
 Taller de Chef de DevOps BCN
 ============================
-
-Chef repository for DevOps BCN workshop on Chef
+Este sera el readme para el repositorio del taller de Chef del grupo DevOps BCN
