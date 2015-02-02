@@ -1,0 +1,19 @@
+DEPENDENCIES
+  chef-wp-workshop
+    path: .
+    metadata: true
+  mysql (~> 6.0.6)
+
+GRAPH
+  chef-wp-workshop (0.1.0)
+    mysql (~> 6.0.6)
+  mysql (6.0.6)
+    smf (>= 0.0.0)
+    yum-mysql-community (>= 0.0.0)
+  rbac (1.0.2)
+  smf (2.2.1)
+    rbac (>= 1.0.1)
+    resource-control (>= 0.0.0)
+  yum (3.5.2)
+  yum-mysql-community (0.1.11)
+    yum (>= 3.0)
